@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>
+      AUBG is the r/place to be
+    </title>
+    <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    </head>
+    <h1>
+      AUBG is the r/place to be!
+    </h1>
+    <p>
+      choose a position on the canvas and make a masterpiece, one pixel at a time!
+    </p>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="/js/place.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div class="controls">
+      X: <input type="number" min="0" max="500" id="x-coord">
+      <br>
+      Y: <input type="number" min="0" max="500" id="y-coord">
+      <br>
+      Color: <input type="color" id="color">
+      <br>
+      <button id="submit">Place Color</button>
+    </div>
+    <canvas id="place" height="5000" width="5000"></canvas>
+  </body>
+</html>

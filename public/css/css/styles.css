@@ -1,0 +1,7 @@
+/* Our canvas is actually 50x50, but we are going to represent each pixel with a 10x10 box */
+canvas {
+    margin-top: 10px;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid black;
+  }
