@@ -1,1 +1,2 @@
 # project-wellness
+This is a project made for a Resident Assistant Wellness Program. It takes inspiration from the Reddit April Fools collaborative project r/place. Users can draw one pixel at a time on a 500x500 canvas in any color on the wheel. Website is hosted on Heroku, backend is JavaScript and its runtime Node.js, Socket.io is used to establish a biodirectional connection between server and client, HTML and CSS make the front-end of the app.
